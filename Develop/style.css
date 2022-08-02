@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  background-color: darkslategray;
+  font-family: "Arimo", sans-serif;
+  margin: 0 0;
+}
+header {
+  display: flex;
+  width: -webkit-fill-available;
+  border-width: 1px;
+  border-color: black;
+  padding: 10px;
+  border-style: solid;
+  background-color: aliceblue;
+  justify-content: space-between;
+  height: inherit;
+}
+main {
+  padding-top: 20px;
+}
+.navbar {
+  background-color: aliceblue;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+.navlist {
+  display: inline-flex;
+  flex-wrap: wrap;
+  background-color: aliceblue;
+  align-content: flex-end;
+  padding: 15px;
+  padding-bottom: 30px;
+  color: black;
+}
+
+h1 {
+  background-color: aliceblue;
+}
