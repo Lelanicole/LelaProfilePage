@@ -3,6 +3,7 @@
   background-color: aliceblue;
   font-family: "Arimo", sans-serif;
   margin: 0 0;
+  border: 1px black solid;
 }
 html {
   font-size: 62.5%;
@@ -13,7 +14,7 @@ header {
   width: -webkit-fill-available;
   border-width: 1px;
   border-color: black;
-  padding: 10px;
+  padding: 1rem;
   border-style: solid;
   background-color: darkslategray;
   justify-content: space-between;
